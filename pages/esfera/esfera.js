@@ -1,11 +1,12 @@
-const calcularVolume = (r) => {
-    const pi = 3.14159;
-    const volume = (4 / 3) * pi * Math.pow(r, 3);
+function calcularVolumeEsfera(raio) {
+    const PI = 3.14159;
+    const volume = (4 / 3) * PI * Math.pow(raio, 3);
     return `VOLUME = ${volume.toFixed(3)}`;
-  };
+  }
   
- 
-  console.log(calcularVolume(3));     
-  console.log(calcularVolume(15));    
-  console.log(calcularVolume(1523));  
+  
+  console.log(calcularVolumeEsfera(3));     
+  console.log(calcularVolumeEsfera(15));    
+  console.log(calcularVolumeEsfera(1523));  
+  
   
